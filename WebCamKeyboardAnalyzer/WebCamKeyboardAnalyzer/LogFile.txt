@@ -1,0 +1,430 @@
+25/11/2024 8:30:08 AM: Started analyzing image.
+25/11/2024 8:30:08 AM: Base64 Data Length: 73164
+25/11/2024 8:30:08 AM: Image successfully converted from base64 to byte array.
+25/11/2024 8:30:16 AM: Started analyzing image.
+25/11/2024 8:30:16 AM: Base64 Data Length: 70692
+25/11/2024 8:30:16 AM: Image successfully converted from base64 to byte array.
+25/11/2024 8:30:16 AM: Detected bounding box: X=34, Y=171, W=584, H=207
+25/11/2024 8:30:16 AM: Image analysis completed successfully.
+25/11/2024 8:30:26 AM: Started analyzing image.
+25/11/2024 8:30:26 AM: Base64 Data Length: 79588
+25/11/2024 8:30:26 AM: Image successfully converted from base64 to byte array.
+25/11/2024 8:30:29 AM: Started analyzing image.
+25/11/2024 8:30:29 AM: Base64 Data Length: 69972
+25/11/2024 8:30:29 AM: Image successfully converted from base64 to byte array.
+25/11/2024 8:30:29 AM: Detected bounding box: X=34, Y=179, W=584, H=199
+25/11/2024 8:30:29 AM: Image analysis completed successfully.
+25/11/2024 9:03:19 AM: Started analyzing image.
+25/11/2024 9:03:19 AM: Base64 Data Length: 71556
+25/11/2024 9:03:19 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:03:19 AM: Detected bounding box: X=34, Y=170, W=584, H=208
+25/11/2024 9:03:19 AM: Started analyzing keyboard layout.
+25/11/2024 9:03:19 AM: Started matching keyboard layout.
+25/11/2024 9:03:19 AM: Started matching keyboard layout.
+25/11/2024 9:03:19 AM: Image analysis completed successfully.
+25/11/2024 9:06:15 AM: Started analyzing image.
+25/11/2024 9:06:15 AM: Base64 Data Length: 71248
+25/11/2024 9:06:15 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:06:15 AM: Detected bounding box: X=34, Y=170, W=584, H=208
+25/11/2024 9:06:15 AM: Started analyzing keyboard layout.
+25/11/2024 9:06:15 AM: Started matching keyboard layout.
+25/11/2024 9:06:15 AM: Started matching keyboard layout.
+25/11/2024 9:06:15 AM: Image analysis completed successfully.
+25/11/2024 9:08:42 AM: Started analyzing image.
+25/11/2024 9:08:42 AM: Base64 Data Length: 77460
+25/11/2024 9:08:42 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:08:46 AM: Started analyzing image.
+25/11/2024 9:08:46 AM: Base64 Data Length: 69892
+25/11/2024 9:08:46 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:08:51 AM: Started analyzing image.
+25/11/2024 9:08:51 AM: Base64 Data Length: 69980
+25/11/2024 9:08:51 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:08:54 AM: Started analyzing image.
+25/11/2024 9:08:54 AM: Base64 Data Length: 81828
+25/11/2024 9:08:54 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:08:57 AM: Started analyzing image.
+25/11/2024 9:08:57 AM: Base64 Data Length: 69908
+25/11/2024 9:08:57 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:10:58 AM: Started analyzing image.
+25/11/2024 9:10:58 AM: Base64 Data Length: 71408
+25/11/2024 9:10:58 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:11:02 AM: Started analyzing image.
+25/11/2024 9:11:02 AM: Base64 Data Length: 71500
+25/11/2024 9:11:02 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:11:43 AM: Started analyzing image.
+25/11/2024 9:11:43 AM: Base64 Data Length: 69656
+25/11/2024 9:11:43 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:11:46 AM: Started analyzing image.
+25/11/2024 9:11:46 AM: Base64 Data Length: 69412
+25/11/2024 9:11:46 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:11:53 AM: Started analyzing image.
+25/11/2024 9:11:53 AM: Base64 Data Length: 69628
+25/11/2024 9:11:53 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:11:53 AM: Detected bounding box: X=34, Y=178, W=584, H=200
+25/11/2024 9:11:53 AM: Started analyzing keyboard layout.
+25/11/2024 9:11:53 AM: Started matching keyboard layout.
+25/11/2024 9:11:53 AM: Started matching keyboard layout.
+25/11/2024 9:11:53 AM: Image analysis completed successfully.
+
+25/11/2024 9:18:35 AM: Started analyzing image.
+25/11/2024 9:18:35 AM: Base64 Data Length: 70520
+25/11/2024 9:18:35 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:18:35 AM: Detected bounding box: X=34, Y=178, W=584, H=199
+25/11/2024 9:18:35 AM: Started analyzing keyboard layout.
+25/11/2024 9:18:35 AM: Started matching keyboard layout.
+25/11/2024 9:18:35 AM: Started matching keyboard layout.
+25/11/2024 9:18:35 AM: Image analysis completed successfully.
+25/11/2024 9:28:57 AM: Started analyzing image.
+25/11/2024 9:28:57 AM: Base64 Data Length: 70472
+25/11/2024 9:28:57 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:29:01 AM: Started analyzing image.
+25/11/2024 9:29:01 AM: Base64 Data Length: 70492
+25/11/2024 9:29:01 AM: Image successfully converted from base64 to byte array.
+25/11/2024 9:29:01 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 9:29:01 AM: Started analyzing keyboard layout.
+25/11/2024 9:29:01 AM: Started matching keyboard layout.
+25/11/2024 9:29:01 AM: Started matching keyboard layout.
+25/11/2024 9:29:01 AM: Image analysis completed successfully.
+25/11/2024 10:01:41 AM: Started analyzing image.
+25/11/2024 10:01:41 AM: Base64 Data Length: 69712
+25/11/2024 10:01:41 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:01:41 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 10:01:41 AM: Started analyzing keyboard layout.
+25/11/2024 10:01:41 AM: Started matching keyboard layout.
+25/11/2024 10:01:41 AM: Error in AnalyzeImage: OpenCV: Bad input roi
+25/11/2024 10:01:45 AM: Started analyzing image.
+25/11/2024 10:01:45 AM: Base64 Data Length: 70088
+25/11/2024 10:01:45 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:01:47 AM: Started analyzing image.
+25/11/2024 10:01:47 AM: Base64 Data Length: 69736
+25/11/2024 10:01:47 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:01:47 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 10:01:47 AM: Started analyzing keyboard layout.
+25/11/2024 10:01:47 AM: Started matching keyboard layout.
+25/11/2024 10:01:47 AM: Error in AnalyzeImage: OpenCV: Bad input roi
+25/11/2024 10:01:50 AM: Started analyzing image.
+25/11/2024 10:01:50 AM: Base64 Data Length: 69836
+25/11/2024 10:01:50 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:01:53 AM: Started analyzing image.
+25/11/2024 10:01:53 AM: Base64 Data Length: 69844
+25/11/2024 10:01:53 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:01:54 AM: Started analyzing image.
+25/11/2024 10:01:54 AM: Base64 Data Length: 70116
+25/11/2024 10:01:54 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:01:57 AM: Started analyzing image.
+25/11/2024 10:01:57 AM: Base64 Data Length: 70208
+25/11/2024 10:01:57 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:01:57 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 10:01:57 AM: Started analyzing keyboard layout.
+25/11/2024 10:01:57 AM: Started matching keyboard layout.
+25/11/2024 10:01:57 AM: Error in AnalyzeImage: OpenCV: Bad input roi
+25/11/2024 10:02:01 AM: Started analyzing image.
+25/11/2024 10:02:01 AM: Base64 Data Length: 74704
+25/11/2024 10:02:01 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:02:04 AM: Started analyzing image.
+25/11/2024 10:02:04 AM: Base64 Data Length: 70472
+25/11/2024 10:02:04 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:02:04 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 10:02:04 AM: Started analyzing keyboard layout.
+25/11/2024 10:02:04 AM: Started matching keyboard layout.
+25/11/2024 10:02:04 AM: Error in AnalyzeImage: OpenCV: Bad input roi
+25/11/2024 10:02:06 AM: Started analyzing image.
+25/11/2024 10:02:06 AM: Base64 Data Length: 70632
+25/11/2024 10:02:06 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:02:31 AM: Started analyzing image.
+25/11/2024 10:02:31 AM: Base64 Data Length: 70860
+25/11/2024 10:02:31 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:02:31 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 10:02:31 AM: Started analyzing keyboard layout.
+25/11/2024 10:02:31 AM: Started matching keyboard layout.
+25/11/2024 10:02:31 AM: Error in AnalyzeImage: OpenCV: Bad input roi
+25/11/2024 10:02:34 AM: Started analyzing image.
+25/11/2024 10:02:34 AM: Base64 Data Length: 70656
+25/11/2024 10:02:34 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:02:34 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 10:02:34 AM: Started analyzing keyboard layout.
+25/11/2024 10:02:34 AM: Started matching keyboard layout.
+25/11/2024 10:02:34 AM: Error in AnalyzeImage: OpenCV: Bad input roi
+25/11/2024 10:02:37 AM: Started analyzing image.
+25/11/2024 10:02:37 AM: Base64 Data Length: 70668
+25/11/2024 10:02:37 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:02:37 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 10:02:37 AM: Started analyzing keyboard layout.
+25/11/2024 10:02:37 AM: Started matching keyboard layout.
+25/11/2024 10:02:37 AM: Error in AnalyzeImage: OpenCV: Bad input roi
+25/11/2024 10:04:59 AM: Started analyzing image.
+25/11/2024 10:04:59 AM: Base64 Data Length: 70700
+25/11/2024 10:04:59 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:04:59 AM: Detected bounding box: X=34, Y=170, W=584, H=207
+25/11/2024 10:04:59 AM: Started analyzing keyboard layout.
+25/11/2024 10:04:59 AM: Started matching keyboard layout.
+25/11/2024 10:04:59 AM: Started matching keyboard layout.
+25/11/2024 10:04:59 AM: Image analysis completed successfully.
+25/11/2024 10:05:24 AM: Started analyzing image.
+25/11/2024 10:05:24 AM: Base64 Data Length: 96520
+25/11/2024 10:05:24 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:05:32 AM: Started analyzing image.
+25/11/2024 10:05:32 AM: Base64 Data Length: 97512
+25/11/2024 10:05:32 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:05:35 AM: Started analyzing image.
+25/11/2024 10:05:35 AM: Base64 Data Length: 97168
+25/11/2024 10:05:35 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:06:29 AM: Started analyzing image.
+25/11/2024 10:06:29 AM: Base64 Data Length: 97476
+25/11/2024 10:06:29 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:07:01 AM: Started analyzing image.
+25/11/2024 10:07:01 AM: Base64 Data Length: 86908
+25/11/2024 10:07:01 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:07:04 AM: Started analyzing image.
+25/11/2024 10:07:04 AM: Base64 Data Length: 87084
+25/11/2024 10:07:04 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:07:08 AM: Started analyzing image.
+25/11/2024 10:07:08 AM: Base64 Data Length: 86988
+25/11/2024 10:07:08 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:07:19 AM: Started analyzing image.
+25/11/2024 10:07:19 AM: Base64 Data Length: 84888
+25/11/2024 10:07:19 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:07:28 AM: Started analyzing image.
+25/11/2024 10:07:28 AM: Base64 Data Length: 71048
+25/11/2024 10:07:28 AM: Image successfully converted from base64 to byte array.
+25/11/2024 10:07:28 AM: Detected bounding box: X=32, Y=170, W=584, H=212
+25/11/2024 10:07:28 AM: Started analyzing keyboard layout.
+25/11/2024 10:07:28 AM: Started matching keyboard layout.
+25/11/2024 10:07:28 AM: Started matching keyboard layout.
+25/11/2024 10:07:28 AM: Image analysis completed successfully.
+25/11/2024 11:01:48 AM: Started analyzing image.
+25/11/2024 11:01:48 AM: Base64 Data Length: 0
+25/11/2024 11:01:48 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:01:48 AM: Error in AnalyzeImage: Parameter is not valid.
+25/11/2024 11:03:15 AM: Started analyzing image.
+25/11/2024 11:03:15 AM: Base64 Data Length: 66900
+25/11/2024 11:03:15 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:03:21 AM: Started analyzing image.
+25/11/2024 11:03:21 AM: Base64 Data Length: 66484
+25/11/2024 11:03:21 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:03:21 AM: Detected bounding box: X=32, Y=173, W=584, H=209
+25/11/2024 11:03:21 AM: Started analyzing keyboard layout.
+25/11/2024 11:03:21 AM: Started matching keyboard layout.
+25/11/2024 11:03:21 AM: Started matching keyboard layout.
+25/11/2024 11:03:21 AM: Image analysis completed successfully.
+25/11/2024 11:05:01 AM: Started analyzing image.
+25/11/2024 11:05:01 AM: Base64 Data Length: 69868
+25/11/2024 11:05:01 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:05:01 AM: Detected bounding box: X=32, Y=173, W=584, H=209
+25/11/2024 11:05:01 AM: Started analyzing keyboard layout.
+25/11/2024 11:05:01 AM: Started matching keyboard layout.
+25/11/2024 11:05:01 AM: Started matching keyboard layout.
+25/11/2024 11:05:01 AM: Image analysis completed successfully.
+25/11/2024 11:06:48 AM: Started analyzing image.
+25/11/2024 11:06:48 AM: Base64 Data Length: 93984
+25/11/2024 11:06:48 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:06:52 AM: Started analyzing image.
+25/11/2024 11:06:52 AM: Base64 Data Length: 93936
+25/11/2024 11:06:52 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:07:16 AM: Started analyzing image.
+25/11/2024 11:07:16 AM: Base64 Data Length: 93620
+25/11/2024 11:07:16 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:07:52 AM: Started analyzing image.
+25/11/2024 11:07:52 AM: Base64 Data Length: 93444
+25/11/2024 11:07:52 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:09:32 AM: Started analyzing image.
+25/11/2024 11:09:32 AM: Base64 Data Length: 68972
+25/11/2024 11:09:32 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:09:43 AM: Started analyzing image.
+25/11/2024 11:09:43 AM: Base64 Data Length: 71324
+25/11/2024 11:09:43 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:09:46 AM: Started analyzing image.
+25/11/2024 11:09:46 AM: Base64 Data Length: 71424
+25/11/2024 11:09:46 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:09:58 AM: Started analyzing image.
+25/11/2024 11:09:58 AM: Base64 Data Length: 71520
+25/11/2024 11:09:58 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:10:06 AM: Started analyzing image.
+25/11/2024 11:10:06 AM: Base64 Data Length: 70900
+25/11/2024 11:10:06 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:59:51 AM: Started analyzing image.
+25/11/2024 11:59:51 AM: Base64 Data Length: 69872
+25/11/2024 11:59:51 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:59:54 AM: Started analyzing image.
+25/11/2024 11:59:54 AM: Base64 Data Length: 69528
+25/11/2024 11:59:54 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:59:56 AM: Started analyzing image.
+25/11/2024 11:59:56 AM: Base64 Data Length: 69720
+25/11/2024 11:59:56 AM: Image successfully converted from base64 to byte array.
+25/11/2024 11:59:58 AM: Started analyzing image.
+25/11/2024 11:59:58 AM: Base64 Data Length: 69864
+25/11/2024 11:59:58 AM: Image successfully converted from base64 to byte array.
+25/11/2024 12:00:02 PM: Started analyzing image.
+25/11/2024 12:00:02 PM: Base64 Data Length: 74676
+25/11/2024 12:00:02 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:00:05 PM: Started analyzing image.
+25/11/2024 12:00:05 PM: Base64 Data Length: 74036
+25/11/2024 12:00:05 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:00:10 PM: Started analyzing image.
+25/11/2024 12:00:10 PM: Base64 Data Length: 75416
+25/11/2024 12:00:10 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:00:14 PM: Started analyzing image.
+25/11/2024 12:00:14 PM: Base64 Data Length: 31200
+25/11/2024 12:00:14 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:00:30 PM: Started analyzing image.
+25/11/2024 12:00:30 PM: Base64 Data Length: 72244
+25/11/2024 12:00:30 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:00:49 PM: Started analyzing image.
+25/11/2024 12:00:49 PM: Base64 Data Length: 67648
+25/11/2024 12:00:49 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:01:07 PM: Started analyzing image.
+25/11/2024 12:01:07 PM: Base64 Data Length: 83456
+25/11/2024 12:01:07 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:01:07 PM: Detected bounding box: X=51, Y=178, W=585, H=259
+25/11/2024 12:01:07 PM: Started analyzing keyboard layout.
+25/11/2024 12:01:07 PM: Started matching keyboard layout.
+25/11/2024 12:01:07 PM: Started matching keyboard layout.
+25/11/2024 12:01:07 PM: Image analysis completed successfully.
+25/11/2024 12:01:18 PM: Started analyzing image.
+25/11/2024 12:01:18 PM: Base64 Data Length: 82196
+25/11/2024 12:01:18 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:01:26 PM: Started analyzing image.
+25/11/2024 12:01:26 PM: Base64 Data Length: 79072
+25/11/2024 12:01:26 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:01:30 PM: Started analyzing image.
+25/11/2024 12:01:30 PM: Base64 Data Length: 79132
+25/11/2024 12:01:30 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:01:30 PM: Detected bounding box: X=41, Y=164, W=577, H=236
+25/11/2024 12:01:30 PM: Started analyzing keyboard layout.
+25/11/2024 12:01:30 PM: Started matching keyboard layout.
+25/11/2024 12:01:30 PM: Started matching keyboard layout.
+25/11/2024 12:01:30 PM: Image analysis completed successfully.
+25/11/2024 12:02:21 PM: Started analyzing image.
+25/11/2024 12:02:21 PM: Base64 Data Length: 94316
+25/11/2024 12:02:21 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:02:25 PM: Started analyzing image.
+25/11/2024 12:02:25 PM: Base64 Data Length: 94364
+25/11/2024 12:02:25 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:02:29 PM: Started analyzing image.
+25/11/2024 12:02:29 PM: Base64 Data Length: 98152
+25/11/2024 12:02:29 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:02:35 PM: Started analyzing image.
+25/11/2024 12:02:35 PM: Base64 Data Length: 94980
+25/11/2024 12:02:35 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:02:42 PM: Started analyzing image.
+25/11/2024 12:02:42 PM: Base64 Data Length: 94812
+25/11/2024 12:02:42 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:02:54 PM: Started analyzing image.
+25/11/2024 12:02:54 PM: Base64 Data Length: 98568
+25/11/2024 12:02:54 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:03:20 PM: Started analyzing image.
+25/11/2024 12:03:20 PM: Base64 Data Length: 99632
+25/11/2024 12:03:20 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:03:27 PM: Started analyzing image.
+25/11/2024 12:03:27 PM: Base64 Data Length: 101184
+25/11/2024 12:03:27 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:03:31 PM: Started analyzing image.
+25/11/2024 12:03:31 PM: Base64 Data Length: 97516
+25/11/2024 12:03:31 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:03:35 PM: Started analyzing image.
+25/11/2024 12:03:35 PM: Base64 Data Length: 95984
+25/11/2024 12:03:35 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:04:07 PM: Started analyzing image.
+25/11/2024 12:04:07 PM: Base64 Data Length: 3412
+25/11/2024 12:04:07 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:14:23 PM: Started analyzing image.
+25/11/2024 12:14:23 PM: Base64 Data Length: 86868
+25/11/2024 12:14:23 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:14:23 PM: Detected bounding box: X=8, Y=196, W=595, H=256
+25/11/2024 12:14:23 PM: Started analyzing keyboard layout.
+25/11/2024 12:14:23 PM: Started matching keyboard layout.
+25/11/2024 12:14:23 PM: Started matching keyboard layout.
+25/11/2024 12:14:23 PM: Image analysis completed successfully.
+25/11/2024 12:14:37 PM: Started analyzing image.
+25/11/2024 12:14:37 PM: Base64 Data Length: 82408
+25/11/2024 12:14:37 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:14:40 PM: Started analyzing image.
+25/11/2024 12:14:40 PM: Base64 Data Length: 82360
+25/11/2024 12:14:40 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:14:46 PM: Started analyzing image.
+25/11/2024 12:14:46 PM: Base64 Data Length: 81996
+25/11/2024 12:14:46 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:14:49 PM: Started analyzing image.
+25/11/2024 12:14:49 PM: Base64 Data Length: 82072
+25/11/2024 12:14:49 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:14:53 PM: Started analyzing image.
+25/11/2024 12:14:53 PM: Base64 Data Length: 81968
+25/11/2024 12:14:53 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:16:20 PM: Started analyzing image.
+25/11/2024 12:16:20 PM: Base64 Data Length: 82012
+25/11/2024 12:16:20 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:16:31 PM: Started analyzing image.
+25/11/2024 12:16:31 PM: Base64 Data Length: 80348
+25/11/2024 12:16:31 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:16:38 PM: Started analyzing image.
+25/11/2024 12:16:38 PM: Base64 Data Length: 80332
+25/11/2024 12:16:38 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:16:54 PM: Started analyzing image.
+25/11/2024 12:16:54 PM: Base64 Data Length: 86436
+25/11/2024 12:16:54 PM: Image successfully converted from base64 to byte array.
+25/11/2024 12:16:54 PM: Detected bounding box: X=20, Y=189, W=592, H=256
+25/11/2024 12:16:54 PM: Started analyzing keyboard layout.
+25/11/2024 12:16:54 PM: Started matching keyboard layout.
+25/11/2024 12:16:54 PM: Started matching keyboard layout.
+25/11/2024 12:16:54 PM: Image analysis completed successfully.
+25/11/2024 1:32:45 PM: Started analyzing image.
+25/11/2024 1:32:45 PM: Base64 Data Length: 88152
+25/11/2024 1:32:45 PM: Image successfully converted from base64 to byte array.
+25/11/2024 1:32:45 PM: Detected bounding box: X=20, Y=189, W=592, H=256
+25/11/2024 1:32:45 PM: Started analyzing keyboard layout.
+25/11/2024 1:32:45 PM: Started matching keyboard layout.
+25/11/2024 1:32:45 PM: Started matching keyboard layout.
+25/11/2024 1:32:45 PM: Image analysis completed successfully.
+25/11/2024 1:33:08 PM: Started analyzing image.
+25/11/2024 1:33:08 PM: Base64 Data Length: 87424
+25/11/2024 1:33:08 PM: Image successfully converted from base64 to byte array.
+25/11/2024 1:33:08 PM: Detected bounding box: X=23, Y=189, W=593, H=244
+25/11/2024 1:33:08 PM: Started analyzing keyboard layout.
+25/11/2024 1:33:08 PM: Started matching keyboard layout.
+25/11/2024 1:33:08 PM: Started matching keyboard layout.
+25/11/2024 1:33:08 PM: Image analysis completed successfully.
+25/11/2024 1:46:26 PM: Started analyzing image.
+25/11/2024 1:46:26 PM: Base64 Data Length: 87864
+25/11/2024 1:46:26 PM: Image successfully converted from base64 to byte array.
+25/11/2024 1:46:26 PM: Detected bounding box: X=23, Y=189, W=593, H=244
+25/11/2024 1:46:26 PM: Started analyzing keyboard layout.
+25/11/2024 1:46:26 PM: Started matching keyboard layout.
+25/11/2024 1:46:26 PM: Started matching keyboard layout.
+25/11/2024 1:46:26 PM: Image analysis completed successfully.
+25/11/2024 1:46:32 PM: Started analyzing image.
+25/11/2024 1:46:32 PM: Base64 Data Length: 88028
+25/11/2024 1:46:32 PM: Image successfully converted from base64 to byte array.
+25/11/2024 1:46:32 PM: Detected bounding box: X=23, Y=189, W=593, H=244
+25/11/2024 1:46:32 PM: Started analyzing keyboard layout.
+25/11/2024 1:46:32 PM: Started matching keyboard layout.
+25/11/2024 1:46:32 PM: Started matching keyboard layout.
+25/11/2024 1:46:32 PM: Image analysis completed successfully.
+25/11/2024 1:46:52 PM: Started analyzing image.
+25/11/2024 1:46:52 PM: Base64 Data Length: 78820
+25/11/2024 1:46:52 PM: Image successfully converted from base64 to byte array.
+25/11/2024 1:46:52 PM: Detected bounding box: X=23, Y=189, W=610, H=244
+25/11/2024 1:46:52 PM: Started analyzing keyboard layout.
+25/11/2024 1:46:52 PM: Started matching keyboard layout.
+25/11/2024 1:46:52 PM: Started matching keyboard layout.
+25/11/2024 1:46:52 PM: Image analysis completed successfully.
+25/11/2024 1:47:04 PM: Started analyzing image.
+25/11/2024 1:47:04 PM: Base64 Data Length: 89172
+25/11/2024 1:47:04 PM: Image successfully converted from base64 to byte array.
+25/11/2024 1:47:07 PM: Started analyzing image.
+25/11/2024 1:47:07 PM: Base64 Data Length: 80748
+25/11/2024 1:47:07 PM: Image successfully converted from base64 to byte array.
+25/11/2024 1:47:21 PM: Started analyzing image.
+25/11/2024 1:47:21 PM: Base64 Data Length: 75500
+25/11/2024 1:47:21 PM: Image successfully converted from base64 to byte array.
+25/11/2024 2:21:43 PM: Started analyzing image.
+25/11/2024 2:21:43 PM: Base64 Data Length: 76832
+25/11/2024 2:21:43 PM: Image successfully converted from base64 to byte array.
+25/11/2024 2:21:46 PM: Started analyzing image.
+25/11/2024 2:21:46 PM: Base64 Data Length: 76784
+25/11/2024 2:21:46 PM: Image successfully converted from base64 to byte array.
+25/11/2024 2:21:59 PM: Started analyzing image.
+25/11/2024 2:21:59 PM: Base64 Data Length: 97156
+25/11/2024 2:21:59 PM: Image successfully converted from base64 to byte array.
+25/11/2024 2:22:02 PM: Started analyzing image.
+25/11/2024 2:22:02 PM: Base64 Data Length: 96932
+25/11/2024 2:22:02 PM: Image successfully converted from base64 to byte array.

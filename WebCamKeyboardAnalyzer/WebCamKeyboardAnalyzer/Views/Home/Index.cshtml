@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Keyboard Detection</title>
+        <style>
+            #canvas {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Keyboard Detection</h1>
+        <video id="video" autoplay></video>
+        <canvas id="canvas"></canvas>
+        <button id="detectButton">Detect Keyboard</button>
+        <script>
+            const video = document.getElementById("video");
+            const canvas = document.getElementById("canvas");
+            const ctx = canvas.getContext("2d");
+
+            // Access the user's webcam
+            navigator.mediaDevices.getUserMedia({ video: true }).then((stream) => {
+                video.srcObject = stream;
+            });
+
+            // Function to update bounding boxes
+            const drawBoundingBoxes = (boundingBoxes) => {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+                boundingBoxes.forEach(bbox => {
+                    // Draw the main keyboard bounding box (green)
+                    ctx.strokeStyle = "green";
+                    ctx.lineWidth = 2;
+                    ctx.strokeRect(bbox.x_min, bbox.y_min, bbox.x_max - bbox.x_min, bbox.y_max - bbox.y_min);
+
+                    // Draw the bounding boxes for each key (blue)
+                    bbox.keys.forEach(key => {
+                        ctx.strokeStyle = "blue"; // Small blue bounding boxes for keys
+                        ctx.lineWidth = 1;
+                        ctx.strokeRect(key.x_min, key.y_min, key.x_max - key.x_min, key.y_max - key.y_min);
+
+                        // Display text labels (all detected symbols)
+                        ctx.fillStyle = "red";
+                        ctx.font = "10px Arial";
+
+                        // Position the text inside the bounding box, centered horizontally and vertically
+                        let textWidth = ctx.measureText(key.text).width;
+                        let textX = key.x_min + (key.x_max - key.x_min - textWidth) / 2; // Centered horizontally
+                        let textY = key.y_min + (key.y_max - key.y_min) / 2 + 5; // Centered vertically within the box (adjust with +5 for better positioning)
+
+                        ctx.fillText(key.text, textX, textY);
+                    });
+
+                });
+            };
+
+
+            // When "Detect Keyboard" button is clicked
+            detectButton.addEventListener("click", async () => {
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+                const base64Image = canvas.toDataURL("image/jpeg");
+
+                try {
+                    const response = await fetch("/api/ImageAnalysis", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ image: base64Image }),
+                    });
+
+                    const result = await response.json();
+
+                    if (result.boundingBoxes && result.boundingBoxes.length > 0) {
+                        drawBoundingBoxes(result.boundingBoxes);  // Draw bounding boxes with labels
+                        alert(`Keyboard detected! Best match: ${result.bestMatch}`);
+                    } else {
+                        alert("No keyboard detected.");
+                    }
+                } catch (error) {
+                    console.error("Error detecting keyboard:", error);
+                    alert("An error occurred.");
+                }
+            });
+        </script>
+    </body>
+    </html>
+
+
+
+
+
+<!--<<div>
+    <img id="cameraFeed" alt="Loading camera feed..." width="640" height="480" />
+</div>
+
+<script>-->
+    @* async function fetchAndUpdateFrame() {
+        const imgElement = document.getElementById('cameraFeed');
+        try {
+            const response = await fetch('/api/camera/getstream', { method: 'GET' });
+            if (response.ok) {
+                const blob = await response.blob();
+                const imgUrl = URL.createObjectURL(blob);
+                imgElement.src = imgUrl; // Update the <img> tag
+                setTimeout(fetchAndUpdateFrame, 100); // Fetch the next frame after 100ms
+            } else {
+                console.error('Failed to fetch frame:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Error while fetching the frame:', error);
+        }
+    }*@
+   <!--async function fetchAndUpdateFrame() {
+        const imgElement = document.getElementById('cameraFeed');
+        try {
+            const response = await fetch('http://127.0.0.1:5000/stream');
+            if (response.ok) {
+                const blob = await response.blob();
+                const imgUrl = URL.createObjectURL(blob);
+                imgElement.src = imgUrl;
+            } else {
+                console.error('Failed to fetch frame:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Error fetching the frame:', error);
+        }
+    }
+
+
+    fetchAndUpdateFrame(); // Start fetching frames
+</script>-->
+

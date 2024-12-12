@@ -1,0 +1,255 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Selector</title>
+    <style>
+        /* Add CSS for layout */
+        #liveStreamContainer {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px; /* Space between elements */
+        }
+        #cameraFeed {
+            width: 640px;
+            height: 480px;
+        }
+        #selectedKeyboardContainer,
+        #capturedKeyboardContainer,
+        #detectedKeyboardContainer {
+            display: none; /* Hide by default */
+            width: 400px; /* Control image size */
+            height: 480px;
+            object-fit: contain;
+        }
+        #selectedKeyboardImage,
+        #capturedKeyboardImage,
+        #detectedKeyboardImage {
+            width: 100%; /* Ensure the image fits the container */
+            height: auto;
+            object-fit: contain;
+        }
+        #captureAndCompareButton {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select Keyboard Type</h1>
+    <form id="keyboardForm">
+        <input type="radio" name="keyboard_type" value="swedish" id="swedish" />
+        <label for="swedish">Swedish</label>
+        <br />
+        <input type="radio" name="keyboard_type" value="standard" id="standard" />
+        <label for="standard">Standard</label>
+        <br />
+        <button type="submit">Set Keyboard</button>
+    </form>
+    <p id="message"></p>
+
+    <h2>Live Stream</h2>
+    <div id="liveStreamContainer">
+        <img id="cameraFeed" src="/stream" width="640" height="480" />
+        
+        <div id="selectedKeyboardContainer">
+            <p id="selectedKeyboardName">No keyboard selected</p>
+            <img id="selectedKeyboardImage" src="" alt="Selected Keyboard" />
+        </div>
+
+        <div id="capturedKeyboardContainer">
+            <p id="capturedKeyboardName">Captured Keyboard</p>
+            <img id="capturedKeyboardImage" src="" alt="Captured Keyboard" />
+        </div>
+    </div>
+
+    <div id="detectedKeyboardContainer">
+        <h3>Detected Keyboard</h3>
+        <img id="detectedKeyboardImage" src="" alt="Detected Keyboard" />
+    </div>
+    
+    <button id="detectKeyboardButton">Detect Keyboard</button>
+    
+
+    <button id="captureAndCompareButton">Capture and Compare</button>
+
+    <script>
+        document.getElementById('keyboardForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const response = await fetch('/select-keyboard', {
+                method: 'POST',
+                body: JSON.stringify({
+                    keyboard_type: formData.get('keyboard_type')
+                }),
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            const data = await response.json();
+            document.getElementById('message').innerText = data.message || data.error;
+            
+            // Display the selected keyboard image and name
+            if (data.message) {
+                document.getElementById('selectedKeyboardImage').src = data.image_path; // Correct relative image path
+                document.getElementById('selectedKeyboardName').innerText = data.keyboard_name; // Keyboard name
+
+                // Show the selected keyboard container
+                document.getElementById('selectedKeyboardContainer').style.display = 'block';
+            }
+        });
+
+        document.getElementById('captureAndCompareButton').addEventListener('click', async () => {
+            const response = await fetch('/capture-and-compare');
+            const data = await response.json();
+
+            if (data.error) {
+                alert(data.error);
+            } else {
+                const img = new Image();
+                img.src = '/static/keyboard-images/' + data.filename; // Use the new route for serving images
+                document.getElementById('capturedKeyboardImage').src = img.src; // Update captured image source
+                document.getElementById('capturedKeyboardContainer').style.display = 'block'; // Show captured keyboard container
+            }
+        });
+
+        document.getElementById('detectKeyboardButton').addEventListener('click', () => {
+        fetch('/detect-keyboard')
+            .then(response => response.json())
+            .then(data => {
+                if (data.detected_image) {
+                    const detectedImagePath = `/static/KeyboardImages/${data.detected_image}`;
+                    document.getElementById('detectedKeyboardImage').src = detectedImagePath;
+                    document.getElementById('detectedKeyboardContainer').style.display = 'block';
+                } else {
+                    alert(data.error || 'Error detecting the keyboard.');
+                }
+            })
+            .catch(err => console.error('Error:', err));
+    });
+    </script>
+</body>
+</html> -->
+
+
+<!-- code for keys comparison frontend -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1,h2,h3,h4,h5 {
+            color: #333;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        img {
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            background: #f9f9f9;
+        }
+        #results {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background: #f9f9f9;
+        }
+    </style>    
+</head>
+<body>
+    <h1>Keyboard Comparison</h1>
+    <form id="compareForm" enctype="multipart/form-data">
+        <label for="image1">Reference Image:</label>
+        <input type="file" id="image1" name="image1" required accept="image/*">
+        <img id="previewImage1" style="max-width: 200px; max-height: 200px; display: none;" alt="Reference Image Preview">
+        <br>
+        <label for="image2">Test Image:</label>
+        <input type="file" id="image2" name="image2" required accept="image/*">
+        <img id="previewImage2" style="max-width: 200px; max-height: 200px; display: none;" alt="Test Image Preview">
+        <br>        
+        <button type="submit">Compare Images</button>
+
+        <h3>Results</h3>
+        <!-- <div id="results" style="display: none;"> -->
+            <!-- <h3>Mismatched Keys:</h3>
+            <ul id="mismatchedKeys"></ul> -->
+            <h4>Processed Test Image:</h4>
+            <img id="outputImage" style="max-width: 200px; max-height: 200px;" alt="Processed Test Image">
+        <!-- </div> -->
+
+    </form>
+   
+    <script>
+       document.getElementById('image1').addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = () => {
+                const previewImage = document.getElementById('previewImage1');
+                previewImage.src = reader.result;
+                previewImage.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+    document.getElementById('image2').addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = () => {
+                const previewImage = document.getElementById('previewImage2');
+                previewImage.src = reader.result;
+                previewImage.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+    document.getElementById('compareForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+
+    try {
+        const response = await fetch('/compare', {
+            method: 'POST',
+            body: formData
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json(); // Extract error details
+            alert(errorData.error || "There was an error processing the request.");
+            return;
+        }
+
+        const data = await response.json();
+
+        if (data.missing_keys && data.missing_keys.length > 0) {
+            alert("Mismatched keys found! Check the updated image.");
+        }
+
+        const outputImageElement = document.getElementById('outputImage');
+        if (outputImageElement) {
+            outputImageElement.src = data.modified_image2_path;
+
+        }
+    } catch (error) {
+        console.error("Error during comparison:", error);
+        alert("An unexpected error occurred.");
+    }
+});
+
+    </script>    
+    
+</body>
+</html>
